@@ -1,3 +1,10 @@
+/**
+* The ParticipantController class implements RESTful CRUD services
+* of the participants.
+*
+* @author  Jay Patel
+* @version 1.0 
+*/
 package com.hackathon.hackathon.controller;
 
 
