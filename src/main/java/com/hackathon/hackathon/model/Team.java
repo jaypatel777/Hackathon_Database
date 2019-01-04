@@ -1,3 +1,10 @@
+/**
+* The Team class gets the team name, team participants, 
+* language and submission of the teams.
+*
+* @author  Jay Patel
+* @version 1.0 
+*/
 package com.hackathon.hackathon.model;
 
 import java.util.List;
