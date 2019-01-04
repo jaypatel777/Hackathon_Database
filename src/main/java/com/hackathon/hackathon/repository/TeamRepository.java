@@ -1,3 +1,12 @@
+/**
+* The TeamRepository class satisfies the given
+* constraint of the teams using HashMap. Also,
+* it implements get, put, post, and delete for teams.
+*
+* @author  Jay Patel
+* @version 1.0 
+*/
+
 package com.hackathon.hackathon.repository;
 
 import com.hackathon.hackathon.model.Participant;
@@ -42,6 +51,7 @@ public class TeamRepository {
         return teams.get(id);
     }
 
+    // logic for creating, updating and deleting team with constraints
 
     public String updateTeam(Long id, Team team) {
         String message = "";
