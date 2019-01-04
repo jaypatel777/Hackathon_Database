@@ -1,3 +1,10 @@
+/**
+* The TeamController class implements RESTful CRUD services
+* of the teams.
+*
+* @author  Jay Patel
+* @version 1.0 
+*/
 package com.hackathon.hackathon.controller;
 
 import com.hackathon.hackathon.model.Participant;
