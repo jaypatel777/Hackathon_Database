@@ -1,5 +1,5 @@
 /**
-* The HackathonApplication class implements and RESTful CRUD services
+* The HackathonApplication class implements DB and RESTful CRUD services
 * for organizing the hackathon.
 *
 * @author  Jay Patel
