@@ -1,3 +1,10 @@
+/**
+* The Participant class gets the name, email, 
+* team, language and submission of the participants.
+*
+* @author  Jay Patel
+* @version 1.0 
+*/
 package com.hackathon.hackathon.model;
 
 import java.util.Collections;
