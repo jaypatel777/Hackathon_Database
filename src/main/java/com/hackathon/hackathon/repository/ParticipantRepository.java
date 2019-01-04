@@ -1,6 +1,7 @@
 /**
 * The ParticipantRepository class satisfies the given
-* constraint of the participants using HashMap.
+* constraint of the participants using HashMap.Also,
+* it implements get, put, post, and delete for participant.
 *
 * @author  Jay Patel
 * @version 1.0 
