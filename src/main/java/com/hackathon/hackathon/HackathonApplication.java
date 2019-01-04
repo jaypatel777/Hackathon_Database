@@ -1,3 +1,11 @@
+/**
+* The HackathonApplication class implements and RESTful CRUD services
+* for organizing the hackathon.
+*
+* @author  Jay Patel
+* @version 1.0 
+*/
+
 package com.hackathon.hackathon;
 
 import org.springframework.boot.SpringApplication;
