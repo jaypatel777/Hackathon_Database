@@ -1,3 +1,11 @@
+/**
+* The ParticipantRepository class satisfies the given
+* constraint of the participants using HashMap.
+*
+* @author  Jay Patel
+* @version 1.0 
+*/
+
 package com.hackathon.hackathon.repository;
 
 import com.hackathon.hackathon.model.Participant;
@@ -33,12 +41,15 @@ public class ParticipantRepository {
     public Participant getParticipant(Long id) {
         return participants.get(id);
     }
-
+    
+    // logic for updating, creating and deleting participants with constraints
+    
     public String updateParticipant(Long id, Participant participant) {
         String message = "";
+        
         if( participant.getLanguages().size() > 2) {
             message = "Maximum 2 languages are allowed";
-        } else if ( participant.getSubmissions().size() > 3) {
+        } else if ( participant.getSubmissions().size() > 3) { 
             message = "Maximum 3 submissions are allowed";
         } else {
             participants.put(id, participant);
